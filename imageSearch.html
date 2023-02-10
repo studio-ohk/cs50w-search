@@ -10,7 +10,7 @@
     <body>
         <div class="container-fluid">
             
-            <!-- image search button and advanced search button on the top -->
+            <!-- google search button on the top right -->
             <div class="row justify-content-end">
                 <div class="col-auto m-3 mt-4">
                     <a class="btn btn-outline-primary" href="index.html">Google Search</a>
@@ -22,7 +22,8 @@
                 <div class="col-auto text-center">
                     <form action="https://google.com/search">
                         <div class="mb-3" style="width:450px;">
-                            <input type="text" class="form-control form-control-lg" name="q" placeholder="Image Search">
+                            <input type="hidden" name="tbm" value="isch">
+                            <input type="text" class="form-control form-control-lg rounded-pill" name="q" placeholder="Image Search">
                         </div>
                         <div class="mb-3">
                             <input class="btn btn-primary" type="submit" value="Image Search">
